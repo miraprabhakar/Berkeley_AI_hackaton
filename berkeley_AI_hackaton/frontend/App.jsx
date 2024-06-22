@@ -9,7 +9,7 @@ import { ChatProvider } from "./hooks/useChat";
 
 const App = () => {
   useEffect(() => {
-    document.title = `Gadget x ChatGPT`;
+    document.title = `Songatron x ChatGPT`;
   }, []);
 
   const router = createBrowserRouter(
